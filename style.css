@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+body {
+  background-color: #f5f4f0;
+}
+
+#page {
+  margin: 82px auto 71px;
+  width: 1120px;
+}
+
+.marker {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e1624f;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1b1b1b;
+  margin: 8px 0px 40px;
+}
+
+img {
+  width: 100%;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+main img {
+  padding-top: 4px;
+}
+main img + p {
+  margin-top: 4px;
+  font-style: italic;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  margin: 40px auto;
+  background-color: #d9d9d9;
+}
+
+#destiny {
+  padding-top: 24px;
+}
+
+#destiny p.marker {
+  margin-bottom: 2px;
+}
+
+#destiny h2 {
+  margin-bottom: 8px;
+  font-size: 32px;
+  color: #1b1b1b;
+}
+
+#destiny p {
+  margin-bottom: 64px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1b1b;
+  margin-bottom: 4px;
+  padding-left: 35px;
+}
+
+#option1 {
+  margin-bottom: 48px;
+}
+
+.opts {
+  height: 350px;
+  object-fit: cover;
+}
+
+ul > li {
+  margin-left: 23.5px;
+  font-weight: bold;
+  color: #0c51a7;
+}
+
+ul > li::marker {
+  color: #333333;
+}
+
+#option2 {
+  margin-bottom: 48px;
+}
+
+#option3 ul li:first-child {
+  color: #591b98;
+}
+
+#option3 ul li + li {
+  color: #e5245e;
+}
+
+#option3 ul li + li + li {
+  color: #e95e10;
+}
+
+#moreinfo p {
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+footer #hearticon {
+  width: 16px;
+  vertical-align: middle;
+  margin: 0;
+}
